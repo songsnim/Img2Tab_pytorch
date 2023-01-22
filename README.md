@@ -8,6 +8,7 @@
 <p align="center">
 <img src="docs/Img2Tab_overview.png" width="1000px"/>
 </p>
+
 ## 1. Description
 
 Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper. `Img2Tab_demo.ipynb` contains the following:
