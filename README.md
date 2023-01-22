@@ -37,7 +37,7 @@ We provide pre-encoded $\Psi$ and corresponding labels as well as standardized $
 
 | Path | Description
 | :--- | :----------
-[Pre-encoded $\Psi$ with CelebA](https://drive.google.com/drive/folders/1eXD6B2M9_6mwP8JDEgb5xOUBeEKyQYlm?usp=share_link)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
+[Pre-encoded sets with CelebA](https://drive.google.com/drive/folders/1eXD6B2M9_6mwP8JDEgb5xOUBeEKyQYlm?usp=share_link)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
 
 Download all files from the link into `datasets` folder.
 ## 3. Img2Tab modules
