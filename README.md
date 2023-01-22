@@ -31,6 +31,15 @@ The Img2Tabs classify images and explain at the concept level for explainable im
 git clone https://github.com/songsnim/Img2Tab_pytorch
 cd Img2Tab
 ```
+
+## 2. Img2Tab pre-processed datasets
+We provide pre-encoded $\Psi$ and corresponding labels as well as standardized $\Psi$. 
+
+| Path | Description
+| :--- | :----------
+[Pre-encoded $\Psi$ with CelebA](https://drive.google.com/drive/folders/1eXD6B2M9_6mwP8JDEgb5xOUBeEKyQYlm?usp=share_link)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
+
+Download `standard_Psi_matrix.npy` in `datasets` folder, and `Psi_matrix.npy` in `pretrained_models` folder.
 ## 3. Img2Tab modules
 Download pre-trained Img2Tab modules below.
 
@@ -40,7 +49,12 @@ Download pre-trained Img2Tab modules below.
 |[FFHQ StyleGAN](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing) | Pre-trained StyleGAN models on FFHQ from [rosinality](https://github.com/rosinality/stylegan2-pytorch).
 |[IR-SE50 Model](https://drive.google.com/file/d/1KW7bjndL3QG3sxBbZxreGHigcCCpsDgn/view?usp=sharing) | Pre-trained IR-SE50 model from [TreB1eN](https://github.com/TreB1eN/InsightFace_Pytorch) for use in ID loss during training e4e.
 |[MOCOv2 Model](https://drive.google.com/file/d/18rLcNGdteX5LwT7sv_F7HWr12HpVEzVe/view?usp=sharing) | Pre-trained ResNet-50 model trained using MOCOv2 for use in e4e simmilarity loss for domains other then human faces during training e4e.
-|[Face landmark](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) | Pre-trained dlib face landmark detector for use in CelebA face recognition. This file is in zip format and should be extracted to `pretrained_models` folder.
+|[Face landmark](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) | Pre-trained dlib face landmark detector for use in CelebA face recognition. This file is in zip format and should be extracted to `pretrained_models` folder.| 
+
+All these files are supposed to be downloaded in `pretrained_models` folder.
+
+## 4. Run Img2Tab demo
+Follow instruction in `Img2Tab_demo.ipynb` to try Img2Tab demo.
 
 ## Acknowledgments
 This code borrows heavily from [encoder4editing](https://github.com/omertov/encoder4editing)
