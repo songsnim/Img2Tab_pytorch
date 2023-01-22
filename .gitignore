@@ -3,3 +3,5 @@ __pycache__/*
 readme.md
 __pycache__/
 .vscode/
+__pycache__
+.vscode
