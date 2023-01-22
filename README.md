@@ -10,7 +10,7 @@
 </p>
 ## 1. Description
 
-Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper. This repository contains the following:
+Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper. `Img2Tab_demo.ipynb` contains the following:
 
     - Concept-based prediction
     - Measuring concept importance
