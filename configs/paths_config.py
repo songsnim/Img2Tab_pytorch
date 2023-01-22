@@ -1,9 +1,3 @@
-dataset_paths = {
-	#  Face Datasets (In the paper: FFHQ - train, CelebAHQ - test)
-	'ffhq': '',
-	'celeba_test': '',
-}
-
 model_paths = {
 	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
 	'ir_se50': 'pretrained_models/model_ir_se50.pth',

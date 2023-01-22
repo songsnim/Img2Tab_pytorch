@@ -1,0 +1,3 @@
+Python == 3.9.7
+PyTorch == 1.12.1
+cuda == 11.4
