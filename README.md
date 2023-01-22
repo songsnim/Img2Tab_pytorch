@@ -8,11 +8,24 @@
 <p align="center">
 <img src="docs/Img2Tab_overview.png" width="1000px"/>
 </p>
-
 ## 1. Description
 
-Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper.
-The Img2Tabs classify images and explain at the concept level for explainable image classification. 
+Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper. This repository contains the following:
+
+    - Concept-based prediction
+    - Measuring concept importance
+    - Visualizing important concepts
+    - Presenting concepts with top-5 Wasserstein-1 metric.
+    - Concept-based debugging to exclude specific unwanted concepts.
+
+
+<p align="center">
+<img src="docs/Concept_visualization.png" width="1000px"/>
+</p>
+
+<p align="center">
+<img src="docs/Concept_importance.png" width="700px"/>
+</p>
 
 ## 2. Prerequisites and dependencies
 
