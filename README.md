@@ -39,7 +39,7 @@ We provide pre-encoded $\Psi$ and corresponding labels as well as standardized $
 | :--- | :----------
 [Pre-encoded $\Psi$ with CelebA](https://drive.google.com/drive/folders/1eXD6B2M9_6mwP8JDEgb5xOUBeEKyQYlm?usp=share_link)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
 
-Download `standard_Psi_matrix.npy` in `datasets` folder, and `Psi_matrix.npy` in `pretrained_models` folder.
+Download all files from the link into `datasets` folder.
 ## 3. Img2Tab modules
 Download pre-trained Img2Tab modules below.
 
