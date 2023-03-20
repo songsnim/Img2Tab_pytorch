@@ -124,7 +124,8 @@ class Img2Tab(nn.Module):
         gender_model = XGBClassifier(**params, tree_method='gpu_hist', gpu_id=1)
         xgb_model = gender_model.fit(x_train, y_train, verbose=False)
         
-        return xgb_model
+        self.classifiers = xgb_model
+        
     
     def _mask_unwanted_concepts(self, Psi_matrix, unwanted_k):
         for k in unwanted_k:
@@ -134,9 +135,7 @@ class Img2Tab(nn.Module):
     
     def debug_classifier(self, unwanted_k, Psi_matrix, label):
         masked_Psi_matrix = self._mask_unwanted_concepts(Psi_matrix, unwanted_k)
-        debugged_classifier = self._train_classifier(masked_Psi_matrix, label)
-        
-        self.classifiers = debugged_classifier
+        self._train_classifier(masked_Psi_matrix, label)
         
         
         
