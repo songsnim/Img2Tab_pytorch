@@ -9,6 +9,10 @@
 <img src="docs/Img2Tab_overview.png" width="1000px"/>
 </p>
 
+<p align="center">
+<img src="docs/concept_visualization.png" width="1000px"/>
+</p>
+
 ## 1. Description
 
 IJCAI supplementary demo implementation of "Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper.
