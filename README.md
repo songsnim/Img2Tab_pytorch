@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<img src="docs/concept_visualization.png" width="1000px"/>
+<img src="docs/Concept_visualization.png" width="1000px"/>
 </p>
 
 ## 1. Description
