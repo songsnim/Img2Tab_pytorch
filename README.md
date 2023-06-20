@@ -8,6 +8,7 @@
 <p align="center">
 <img src="docs/Img2Tab_overview.png" width="1000px"/>
 </p>
+
 ## 1. Description
 
 Official demo implementation of "<a href="https://arxiv.org/abs/2301.06324">Img2Tab: Automatic Class Relevant Concept Discovery from StyleGAN Features for Explainable Image Classification</a>" paper. `Img2Tab_demo.ipynb` contains the following:
@@ -50,7 +51,7 @@ We provide pre-encoded $\Psi$ and corresponding labels as well as standardized $
 
 | Path | Description
 | :--- | :----------
-[Pre-encoded sets with CelebA](https://drive.google.com/drive/folders/1eXD6B2M9_6mwP8JDEgb5xOUBeEKyQYlm?usp=share_link)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
+[Pre-encoded sets with CelebA](https://drive.google.com/drive/folders/185_PEBmOy1rucmuRm9RGW51OPe-UQIyI?usp=sharing)| This links provide pre-encoded $\Psi$ sets by Img2Tab encoder.|
 
 Download all files from the link into `datasets` folder.
 ## 3. Img2Tab modules
